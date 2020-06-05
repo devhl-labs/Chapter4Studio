@@ -1,0 +1,12 @@
+E:\repos\LaunchCode\Chapter4Studio\Chapter4Studio\bin\Debug\netcoreapp3.1\Chapter4Studio.exe
+E:\repos\LaunchCode\Chapter4Studio\Chapter4Studio\bin\Debug\netcoreapp3.1\Chapter4Studio.deps.json
+E:\repos\LaunchCode\Chapter4Studio\Chapter4Studio\bin\Debug\netcoreapp3.1\Chapter4Studio.runtimeconfig.json
+E:\repos\LaunchCode\Chapter4Studio\Chapter4Studio\bin\Debug\netcoreapp3.1\Chapter4Studio.runtimeconfig.dev.json
+E:\repos\LaunchCode\Chapter4Studio\Chapter4Studio\bin\Debug\netcoreapp3.1\Chapter4Studio.dll
+E:\repos\LaunchCode\Chapter4Studio\Chapter4Studio\bin\Debug\netcoreapp3.1\Chapter4Studio.pdb
+E:\repos\LaunchCode\Chapter4Studio\Chapter4Studio\obj\Debug\netcoreapp3.1\Chapter4Studio.AssemblyInfoInputs.cache
+E:\repos\LaunchCode\Chapter4Studio\Chapter4Studio\obj\Debug\netcoreapp3.1\Chapter4Studio.AssemblyInfo.cs
+E:\repos\LaunchCode\Chapter4Studio\Chapter4Studio\obj\Debug\netcoreapp3.1\Chapter4Studio.csproj.CoreCompileInputs.cache
+E:\repos\LaunchCode\Chapter4Studio\Chapter4Studio\obj\Debug\netcoreapp3.1\Chapter4Studio.dll
+E:\repos\LaunchCode\Chapter4Studio\Chapter4Studio\obj\Debug\netcoreapp3.1\Chapter4Studio.pdb
+E:\repos\LaunchCode\Chapter4Studio\Chapter4Studio\obj\Debug\netcoreapp3.1\Chapter4Studio.genruntimeconfig.cache
