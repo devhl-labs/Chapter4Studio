@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Text;
 
+#nullable enable
+
 namespace Chapter4Studio
 {
     public enum MenuCategory
@@ -17,15 +19,15 @@ namespace Chapter4Studio
     {
         public string Name { get; }
 
-        public double Price { get; }
+        public double Price { get; set; }
 
         public string Description { get; } = string.Empty;
 
         public MenuCategory MenuCategory { get; }
 
-        public DateTime CreatedAt { get; }
+        public DateTime CreatedAt { get; } = DateTime.UtcNow;
 
-        public MenuItem(string name, double price, string description, MenuCategory menuCategory, DateTime createdAt)
+        public MenuItem(string name, double price, string description, MenuCategory menuCategory)
         {
             Name = name;
 
@@ -34,8 +36,26 @@ namespace Chapter4Studio
             Description = description;
 
             MenuCategory = menuCategory;
+        }
 
-            CreatedAt = createdAt;
+        public override string ToString()
+        {
+            return $"{Price:C} {Name}";
+        }
+
+        public override bool Equals(object? obj)
+        {
+            return obj is MenuItem item &&
+                   Name == item.Name &&
+                   Price == item.Price &&
+                   Description == item.Description &&
+                   MenuCategory == item.MenuCategory &&
+                   CreatedAt == item.CreatedAt;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Name);
         }
     }
 }

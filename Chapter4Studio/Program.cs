@@ -6,7 +6,9 @@ namespace Chapter4Studio
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Restaurant restaurant = new Restaurant();
+
+            restaurant.Open();
         }
     }
 }
